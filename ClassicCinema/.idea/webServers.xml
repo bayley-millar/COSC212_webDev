@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8fd23409-27e5-4912-9642-87f851ed030d" name="Sapphire_ClassicCinema" url="http://dev212.otago.ac.nz:8080/~bmillar">
+        <fileTransfer host="sapphire.otago.ac.nz" port="22" rootFolder="/devel/bmillar/projects/ClassicCinema" accessType="SFTP" password="dfe8dfcfdfcbdfc7dfcfdfd8df9ddf9cdf99df93df9fdf9edf9cdf99" username="bmillar">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

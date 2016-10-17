@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9cfb38bc-218b-42a1-9db1-41c2747ba848" name="sapphire_assignment" url="http://dev212.otago.ac.nz:8080/~bmillar">
+        <fileTransfer host="sapphire.otago.ac.nz" port="22" rootFolder="/devel/bmillar/projects/assignments/" accessType="SFTP" password="dfe8dfcfdfcbdfc7dfcfdfd8df9ddf9cdf99df93df9fdf9edf9cdf99" username="bmillar">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Admin</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="validation.js"></script>
+    <script src="admin.js"></script>
+    <script src="cookies.js"></script>
+    
+</head>
+<body>
+    <header id="header">
+        <h1>UEFA Euro 2016</h1>
+        <p>Admin page</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>admin</li>
+        </ul>
+    </nav>
+    </header>
+    
+    <div id="show_matches">
+        <form>
+            <fieldset id="field_set1">
+                <legend>Select Match</legend>
+                <select id="select_match">
+                </select>
+                <div id="display_r"></div>
+                
+            </fieldset>
+        </form>
+    </div>
+    
+        <div id="show_matches2">
+        <form id="edit">
+            <fieldset>
+                <legend>Edit Match</legend>
+                
+                <label>Team1 Score: </label>
+                <input id="teamScore1" type="text" size="2" maxlength="2">
+                
+                <label>Team2 Score: </label>
+                <input id="teamScore2" type="text" size="2"  maxlength="2">
+                
+                <label>Venue: </label>
+                <select id="venue"></select>
+                
+                <label>Change Date: </label>
+                dd<input id="day" type="text" size="2" maxlength="2">
+                mm<input id="month" type="text" size="2" maxlength="2">
+                yyyy<input id="year" type="text" size="4" maxlength="4">
+                
+                <input id="submit" type="submit" value="Check Validation">
+                <div id="errors">
+                    
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+
+    <input id='success' type='submit' value=submit>
+    
+    <div id="footer">
+            Designed by Bayley Millar &copy; 2016 UEFA Champions league
+    </div>
+    
+    </body>
+</html>

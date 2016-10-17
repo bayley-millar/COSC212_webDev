@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Home</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="getData.js"></script>
+    <script src="cookies.js"></script>
+    
+</head>
+<body>
+    <header id="header">
+        <h1>UEFA Euro 2016</h1>
+        <p>Home page</p>
+        <nav>
+        <ul>
+            <li>Home</li>
+            <li><a href="admin.html">admin</a></li>
+        </ul>
+    
+    </nav>
+    </header>
+    <p id="intro">Welcome! This is the homepage to the UEFA Euro 2016 page. This page if you look below displays first the table ranking, then the matches that have been played, and last of all a table displaying matches that have not yet been played</p>
+    
+    <div id="main">
+        <h3>Table Rankings</h3>
+        <table class="table">
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>Played</th>
+                <th>Won</th>
+                <th>Drawn</th>
+                <th>Lost</th>
+                <th>For</th>
+                <th>Against</th>
+                <th>Diff.</th>
+                <th>Points</th>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="matches">
+        <h3>Matches</h3>
+        <table id="list_matches">
+            <tr>
+                <th>venue</th>
+                <th>team1</th>
+                <th>team2</th>
+                <th>date</th>
+                <th>team1 Score</th>
+                <th>team2 Score</th>
+            </tr>
+        </table>
+        <h3>To Be Played</h3>
+        <table id="to_be_played">
+            <tr>
+                <th>venue</th>
+                <th>team1</th>
+                <th>team2</th>
+                <th>date</th>
+        </table>
+    </div>
+    
+    <div id="footer">
+            Designed by Bayley Millar &copy; 2016 UEFA Champions league
+    </div>
+
+</body>
+</html>
